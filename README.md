@@ -22,19 +22,19 @@ _Материали на група 4_
 <table style="width:100%;" >
   <tr>
     <td>Семинар</td>
-    <td>...</td>
+    <td>Четвъртък, 16:15 - 18:00, зала 310</td>
     <td style="font-weight: bold">Теодор Гочев</td>
     <td>.....</td>
   </tr>
   <tr>
     <td rowspan="2">Практикум</td>
-    <td rowspan="2">.....</td>
-    <td style="font-weight: bold">...</td>
+    <td rowspan="2">Вторник, 16:15 - 18:00, зала 314</td>
+    <td style="font-weight: bold">Серхан Чавдарлиев</td>
     <td>....
 </td>
   </tr>
   <tr>
-    <td style="font-weight: bold">......</td>
+    <td style="font-weight: bold">Емил Трифонов</td>
     <td>......</td>
   </tr>
 </table>
