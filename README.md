@@ -30,7 +30,13 @@ _Материали на група 4_
     <td rowspan="2">Практикум</td>
     <td rowspan="2">Вторник, 16:15 - 18:00, зала 314</td>
     <td style="font-weight: bold">Серхан Чавдарлиев</td>
-    <td>....
+    <td>
+  
+  [![Instagram](https://img.shields.io/badge/serhan_cavdarliev-DD2A7B?style=for-the-badge&logo=instagram&logoColor=FEDA77)](https://www.instagram.com/serhan_cavdarliev/)
+  [![Facebook](https://img.shields.io/badge/Serhan%20Chavdarliev-1877f2?style=for-the-badge&logo=facebook&logoColor=WHITE)](https://www.facebook.com/serhan.cavdarliev)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=WHITE)](https://www.linkedin.com/in/serhan-chavdarliev-055a97211/)
+  [![Discord](https://img.shields.io/badge/uchihadari-7289da?style=for-the-badge&logo=discord&logoColor=white)]()
+  
 </td>
   </tr>
   <tr>
