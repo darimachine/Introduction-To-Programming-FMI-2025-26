@@ -11,20 +11,19 @@
 */
 
 #include <iostream>
-using namespace std;
 
 
 int main()
 {
 	int n, d;
-	cout << "Enter your n and your d: ";
-	cin >> n >> d;
+	std::cout << "Enter your n and your d: ";
+	std::cin >> n >> d;
 
 	int k = n / d;
 
 	int sum = d * (k * (k + 1) / 2);
 
-	cout << "Your sum is " << sum << endl;
+	std::cout << "Your sum is " << sum << endl;
 
 
 
