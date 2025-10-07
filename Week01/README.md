@@ -409,4 +409,4 @@ int main() {
 
 ## Git и GitHub
 
-_...ще бъде качено скоро..._
+[**Github Desktop Download**](https://desktop.github.com/download/)
