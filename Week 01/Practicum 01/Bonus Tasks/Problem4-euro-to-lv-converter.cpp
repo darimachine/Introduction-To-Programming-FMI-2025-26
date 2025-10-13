@@ -11,16 +11,15 @@ Pittfals:
 
 #include <iostream>
 #include <iomanip> //contains setpresicion function
-using namespace std;
 
 int main()
 {
-	cout << "Enter your amount in Euro: ";
+	std::cout << "Enter your amount in Euro: ";
 	double euroAmount;
-	cin >> euroAmount;
+	std::cin >> euroAmount;
 
 	double stAmount = euroAmount * 196;
-	cout << "The amount in st is " << fixed << setprecision(2) << stAmount << endl;
+	std::cout << "The amount in st is " << fixed << setprecision(2) << stAmount << endl;
 
 
 	return 0;
