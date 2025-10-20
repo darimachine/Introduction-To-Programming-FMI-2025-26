@@ -129,27 +129,12 @@ int main()
     while (a)
     {
         a++;
-        std::cout << a--;
+        std::cout << a--<<std::endl;
         a--;
     }
 }
 ```
 
-<br>
-
-```c++
-#include <iostream>
-int main()
-{
-    int a = 10;
-    while (a)
-    {
-        a++;
-        std::cout << a--;
-        a--;
-    }
-}
-```
                        
 <br>
 
