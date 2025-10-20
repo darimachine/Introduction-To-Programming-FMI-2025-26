@@ -111,6 +111,17 @@ int main() {
 
 ```c++
 #include <iostream>
+
+int main() {
+    for (int i = 0, j = 10; i < j; i++, j--)
+        std::cout << i << " " << j << "\n";
+}
+ 
+```
+<br>
+
+```c++
+#include <iostream>
 int main()
 {
     int a = 10;
