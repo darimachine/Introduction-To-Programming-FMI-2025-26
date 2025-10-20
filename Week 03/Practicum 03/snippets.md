@@ -1,0 +1,141 @@
+## Code Snippets
+
+```c++
+#include <iostream>
+int main()
+{
+    int a = 2;
+    int b = 4;
+    int c = a * b;
+    std::cout << (++a) * b + (b--) / 3 + c;
+}
+```
+<br>
+
+```c++
+#include<iostream>
+
+int main() {
+    int a = 0;
+
+    if (a = 5) {
+        std::cout << "true";
+    }
+    else {
+        std::cout << "false";
+    }
+}
+```
+<br>
+
+```c++
+#include<iostream>
+
+int main() {
+    int a = 1;
+
+    if (a == 0); {
+        std::cout << "true";
+    }
+}
+```
+<br>
+
+```c++
+#include <iostream>
+int main()
+{
+    int a = 2;
+    int b = 4;
+    if(a, b - 2* a)
+        std::cout << a;
+    else
+        std::cout << 100;
+}
+```
+<br>
+
+```c++
+#include<iostream>
+
+int main() {
+    switch (x) {
+    default:
+        std::cout << "no match\n";
+        break;
+    case 1:
+        std::cout << "one\n";
+        break;
+    case 2:
+        std::cout << "two\n";
+        break;
+    }
+}
+```
+<br>
+
+```c++
+#include<iostream>
+
+int main() {
+    switch (x) {
+    default:
+        std::cout << "no match -> ";
+    case 1:
+        std::cout << "one-or-after-default\n";
+        break;
+    case 2:
+        std::cout << "two\n";
+        break;
+    }
+}
+```
+<br>
+
+```c++
+#include <iostream>
+
+int main() {
+    int x = 1;
+    switch (x) {
+        case 1:
+            std::cout << "A";
+        case 2:
+            std::cout << "B";
+        default:
+            std::cout << "C";
+    }
+}
+```
+<br>
+
+```c++
+#include <iostream>
+int main()
+{
+    int i = 9;
+    while (i = 12)
+    {
+        if (i == 0)
+            break;
+        if (i == 9)
+            continue;        
+        i--;
+        std::cout << i << std::endl;
+    }
+}
+```
+<br>
+
+```c++
+#include <iostream>
+int main()
+{
+    int a = 0;
+    do
+    {
+        std::cout << "a";
+    } while(a);
+}
+```
+<br>
