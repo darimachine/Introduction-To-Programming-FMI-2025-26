@@ -113,18 +113,32 @@ int main() {
 #include <iostream>
 int main()
 {
-    int i = 9;
-    while (i = 12)
+    int a = 10;
+    while (a)
     {
-        if (i == 0)
-            break;
-        if (i == 9)
-            continue;        
-        i--;
-        std::cout << i << std::endl;
+        a++;
+        std::cout << a--;
+        a--;
     }
 }
 ```
+
+<br>
+
+```c++
+#include <iostream>
+int main()
+{
+    int a = 10;
+    while (a)
+    {
+        a++;
+        std::cout << a--;
+        a--;
+    }
+}
+```
+                       
 <br>
 
 ```c++
