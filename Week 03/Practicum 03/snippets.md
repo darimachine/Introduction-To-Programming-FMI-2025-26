@@ -78,6 +78,7 @@ int main() {
 #include<iostream>
 
 int main() {
+    int x=3;
     switch (x) {
     default:
         std::cout << "no match -> ";
