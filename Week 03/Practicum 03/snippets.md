@@ -7,7 +7,7 @@ int main()
     int a = 2;
     int b = 4;
     int c = a * b;
-    std::cout << (++a) * b + (b--) / 3 + c;
+    std::cout << (++a) * c + (b--) / 3 + c;
 }
 ```
 <br>
