@@ -17,6 +17,10 @@ _Материали на група 4_
 | **[09]()** | Coming soon!                                                                                                                   |
 | **[10]()** | Coming soon!                                                                                                                           |
 
+### Допълнителни материали
+
+- [Допълнителни задачи](https://github.com/telinc1/Introduction-To-Programming-Problems)
+
 ### График на занятията
 
 <table style="width:100%;" >
