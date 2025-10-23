@@ -21,6 +21,10 @@ _Материали на група 4_
 
 - [Допълнителни задачи](https://github.com/telinc1/Introduction-To-Programming-Problems)
 
+- [cplusplus.com](https://cplusplus.com/reference/)
+- [cppreference.com](https://en.cppreference.com/w/)
+- [Learn C++](https://www.learncpp.com)
+
 ### График на занятията
 
 <table style="width:100%;" >
@@ -29,9 +33,9 @@ _Материали на група 4_
     <td>Четвъртък, 16:15 - 18:00, зала 310</td>
     <td style="font-weight: bold">Теодор Гочев</td>
     <td>
-  
+
   [![Discord](https://img.shields.io/badge/telinc1-5865f2?style=for-the-badge&logo=discord&logoColor=white)]()
-  
+
 </td>
   </tr>
   <tr>
@@ -39,12 +43,12 @@ _Материали на група 4_
     <td rowspan="2">Вторник, 16:15 - 18:00, зала 314</td>
     <td style="font-weight: bold">Серхан Чавдарлиев</td>
     <td>
-  
+
   [![Instagram](https://img.shields.io/badge/serhan_cavdarliev-DD2A7B?style=for-the-badge&logo=instagram&logoColor=FEDA77)](https://www.instagram.com/serhan_cavdarliev/)
   [![Facebook](https://img.shields.io/badge/Serhan%20Chavdarliev-1877f2?style=for-the-badge&logo=facebook&logoColor=WHITE)](https://www.facebook.com/serhan.cavdarliev)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=WHITE)](https://www.linkedin.com/in/serhan-chavdarliev-055a97211/)
   [![Discord](https://img.shields.io/badge/uchihadari-5865f2?style=for-the-badge&logo=discord&logoColor=white)]()
-  
+
 </td>
   </tr>
   <tr>
