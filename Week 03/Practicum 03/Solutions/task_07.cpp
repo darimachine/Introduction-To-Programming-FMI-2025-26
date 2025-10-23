@@ -1,7 +1,8 @@
 #include <iostream>
 
-using namespace std;
-
+using std::cin;
+using std::cout;
+using std::endl;
 const unsigned int MAX_COUNT_OF_NEGATIVES = 3;
 
 int main() {

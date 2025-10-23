@@ -1,7 +1,9 @@
 #include <iostream>
 #include <cmath>
 
-using namespace std;
+using std::cin;
+using std::cout;
+using std::endl;
 
 int main() {
     unsigned int n = 0, k = 0, sum = 0;
