@@ -53,9 +53,6 @@ _Материали на група 4_
   </tr>
   <tr>
     <td style="font-weight: bold">Емил Трифонов</td>
-    <td>
-  [![Instagram](https://img.shields.io/badge/instagram-emil.trifonov.121-E4405F?logo=instagram&logoColor=white&style=for-the-badge)(https://www.instagram.com/emil.trifonov.121/)
-  [![Facebook](https://img.shields.io/badge/facebook-emil.trifonov.121-1877F2?logo=facebook&logoColor=white&style=for-the-badge)](https://www.facebook.com/emil.trifonov.121/)   
-    </td>
+    <td></td>
   </tr>
 </table>
