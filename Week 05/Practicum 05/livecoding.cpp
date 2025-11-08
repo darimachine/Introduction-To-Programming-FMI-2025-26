@@ -45,14 +45,18 @@ int findMaxValueInArray(const int arr[], size_t size) {
     return maxValue;
 }
 
-double getAverageOfArray(const int arr[], size_t size) {
-    double sum = 0;
+long long getSumOfArray(const int arr[], size_t size) {
+    long long sum = 0;
 
     for (size_t i = 0; i < size; i++) {
         sum += arr[i];
     }
 
-    return sum / size;
+    return sum;
+}
+
+double getAverageOfArray(const int arr[], size_t size) {
+    return getSumOfArray(arr, size) / size;
 }
 
 double abs(double a) {
