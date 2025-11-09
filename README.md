@@ -9,8 +9,8 @@ _Материали на група 4_
 | **[01](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2001)** | Увод в програмирането със C++. Среда за разработка (IDE). Примитивни типове данни. Основни аритметични операции. Вход и изход. Условни оператори. Git и GitHub. |
 | **[02](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2002)** | Задачи.|
 | **[03](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2003)** | Цикли. Оператори за цикъл. Break и continue.|
-| **[04]()** |Coming soon!                                                                                                        |
-| **[05]()** |Coming soon!                                                                |
+| **[04](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2004)** |	Функции                                                                                                       |
+| **[05](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2005)** |Функции (продължение). Подаване на аргумент по копие и по референция. Връщане на копие или референция. Основи за масивите                                                              |
 | **[06]()** | Coming soon!                                                                                                  |
 | **[07]()** | Coming soon!                                                                                                                       |
 | **[08]()** | Coming soon!                                                                                                                             |
