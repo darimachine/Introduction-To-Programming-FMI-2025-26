@@ -10,6 +10,7 @@ int findMaxValueInArray(const int arr[], size_t);
 double getAverageOfArray(const int arr[], size_t);
 int findClosestToAverageInArray(const int arr[], size_t);
 int findMinMax(const int arr[], size_t, int&, int&);
+long long getSumOfArray(const int arr[], size_t size);
 
 void readArray(int arr[], size_t size) {
     for (size_t i = 0; i < size; i++) {
