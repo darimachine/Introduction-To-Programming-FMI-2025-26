@@ -9,3 +9,5 @@ while read -r file; do
     clang-format -i "${file}"
     g++ -Wall -Wextra -pedantic -Werror -o /dev/null "${file}"
 done < <(find "${1}" -type f -name '*.cpp')
+
+[[ -f a.out ]] && rm a.out || true
