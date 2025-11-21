@@ -10,9 +10,9 @@ _Материали на група 4_
 | **[02](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2002)** | Задачи.|
 | **[03](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2003)** | Цикли. Оператори за цикъл. Break и continue.|
 | **[04](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2004)** |	Функции                                                                                                       |
-| **[05](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2005)** |Функции (продължение). Подаване на аргумент по копие и по референция. Връщане на копие или референция. Основи за масивите                                                              |
-| **[06]()** | Подготовка за Контролно 1                                                                                                  |
-| **[07]()** | Mасиви. Подаване на масиви като аргументи на функция. Достъп и търсене на елементи в масив, Матрици                                                                                                                    |
+| **[05](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2005)** |Масиви и Функции (продължение). Подаване на аргумент по копие и по референция. Връщане на копие или референция.                                                            |
+| **[06](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2006)** | Подготовка за Контролно 1                                                                                                  |
+| **[07](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2007)** | Матрици и Mасиви(Продължение) . Подаване на масиви като аргументи на функция. Достъп и търсене на елементи в масив/матрица                                                                                                                    |
 | **[08]()** | Coming soon!                                                                                                                             |
 | **[09]()** | Coming soon!                                                                                                                   |
 | **[10]()** | Coming soon!                                                                                                                           |
