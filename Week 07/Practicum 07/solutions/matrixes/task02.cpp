@@ -2,39 +2,21 @@
 
 using namespace std;
 
-constexpr size_t MAX_SIZE = 1024;
-
-bool isOnMainDiagonal(size_t x, size_t y) {
-    return x == y;
-}
+constexpr size_t MAX_SIZE = 64;
 
 void printMainDiagonal(const int matrix[][MAX_SIZE], size_t size) {
     for (size_t i = 0; i < size; i++)
     {
-        for (size_t j = 0; j < size; j++)
-        {
-            if (isOnMainDiagonal(i, j)) {
-                cout << matrix[i][j] << " ";
-            }   
-        }
+        cout << matrix[i][i] << " ";
     }
 
     cout << endl;
 }
 
-bool isOnSecondaryDiagonal(size_t size, int x, int y) {
-    return x + y == size - 1;
-}
-
 void printSecondaryDiagonal(const int matrix[][MAX_SIZE], size_t size) {
     for (size_t i = 0; i < size; i++)
     {
-        for (size_t j = 0; j < size; j++)
-        {
-            if (isOnSecondaryDiagonal(size, i, j)) {
-                cout << matrix[i][j] << " ";
-            }   
-        }
+        cout << matrix[i][size - i - 1] << " ";
     }
 
     cout << endl;

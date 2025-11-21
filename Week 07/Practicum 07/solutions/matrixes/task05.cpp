@@ -3,7 +3,7 @@
 
 using namespace std;
 
-constexpr size_t MAX_SIZE = 1024;
+constexpr size_t MAX_SIZE = 64;
 
 void readRow(int[][MAX_SIZE], size_t, size_t);
 void readMatrix(int[][MAX_SIZE], size_t, size_t);
