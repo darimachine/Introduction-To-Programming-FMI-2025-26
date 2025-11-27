@@ -3,7 +3,7 @@
 
 using namespace std;
 
-constexpr size_t MAX_SIZE = 1024;
+constexpr size_t MAX_SIZE = 64;
 
 int min(int, int);
 int getMinElInRow(const int[][MAX_SIZE], size_t, size_t);
