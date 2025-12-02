@@ -1,20 +1,5 @@
 #include <iostream>
-#include <algorithm>
-#include <cstdlib>
-#include <ctime>
 using namespace std;
-
-constexpr size_t SIZE = 30;
-
-void getRandomizedSortedArray(int arr[], size_t size) {
-    srand(time(nullptr));
-
-    for (int i = 0; i < size; ++i) {
-        arr[i] = rand() % 101;  // random numbers 0–100
-    }
-
-    sort(arr, arr + size);
-}
 
 void printArray(const int arr[], size_t size) {
     for (size_t i = 0; i < size; i++) {
@@ -48,28 +33,15 @@ int binarySearch(const int arr[], size_t size, int x) {
 }
 
 int main() {
-    int arr[SIZE]{0};
-    getRandomizedSortedArray(arr, SIZE);
+    constexpr size_t SIZE = 30;
+    int arr[SIZE] = {
+        2, 6, 9, 10, 14, 18, 19, 19, 23, 29,
+        34, 39, 39, 45, 49, 54, 58, 64, 65, 67,
+        68, 72, 74, 74, 76, 77, 90, 95, 96, 98
+    };
 
-    // arr[20] = 1;
-    // arr[21] = 1;
-    // arr[22] = 1;
-
-    cout << endl;
-    printArray(arr, SIZE);
-    cout << endl;
-    system("pause");
-
-    // cout << binarySearch(arr, SIZE, 1);
-
-    for (size_t i = 0; i <= 100; i+=10)
-    {
-        cout << "Binary search for {" << i << "}:" << endl;
-        int index = binarySearch(arr, SIZE, i);
-        cout << "Index: " << index << endl << endl;
-        system("pause");
-    }
-    
+    int index = binarySearch(arr, SIZE, 74);
+    cout << index << endl;
 
     return 0;
 }
