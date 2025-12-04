@@ -15,7 +15,8 @@ _Материали на група 4_
 | **[07](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2007)** | Матрици и Mасиви(Продължение) . Подаване на масиви като аргументи на функция. Достъп и търсене на елементи в масив/матрица                                                                                                                    |
 | **[08](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2008)** | Продължение Матрици и Масиви, Контролно 2                                                                                                                             |
 | **[09](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2009)** | Указатели                                                                                                                   |
-| **[10]()** | Coming soon!                                                                                                                           |
+| **[10](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2010)** | Побитови операции. Стрингове.                                                                                                                           |
+| **[11]()** | Coming soon!                                                                                                                           |
 
 ### Допълнителни материали
 
