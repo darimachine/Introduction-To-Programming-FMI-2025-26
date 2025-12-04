@@ -3,7 +3,7 @@
 ```cpp
 int *pt;
 int a[3]={4,11,13};
-pt=&a[i];
+pt=&a[1];
 pt+=1;
 cout<<*pt<<endl;
 ```
