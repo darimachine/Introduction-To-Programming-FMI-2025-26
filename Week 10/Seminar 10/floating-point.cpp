@@ -3,42 +3,9 @@
 #include <iomanip>
 #include <iostream>
 
-void printFloat(float num) {
-    if (num > 1000000) {
-        std::cout << std::setprecision(50);
-    } else {
-        std::cout << std::setprecision(7);
-    }
-
-    std::cout << num;
-}
-
-bool isWhole(float num) { return std::floor(num) == num; }
-
-void printRange(float start, float critical, float end, float interval) {
-    bool shownCritical = false;
-
-    float num = start;
-
-    for (int i = 0; num <= end; i++) {
-        float offset = i * interval;
-
-        num = start + offset;
-
-        printFloat(start);
-        std::cout << " + ";
-        printFloat(offset);
-        std::cout << " = ";
-        printFloat(num);
-
-        if (!shownCritical && num == critical && isWhole(offset)) {
-            std::cout << "          <---------------";
-            shownCritical = true;
-        }
-
-        std::cout << std::endl;
-    }
-}
+void printFloat(float num);
+bool isWhole(float num);
+void printRange(float start, float critical, float end, float interval);
 
 int main() {
     std::cout << "After 2^21 = 2097152: floats are 0.25 apart" << std::endl;
@@ -91,4 +58,43 @@ int main() {
     std::cout << "DBL_MAX = " << DBL_MAX << std::endl;
 
     return 0;
+}
+
+void printFloat(float num) {
+    if (num > 1000000) {
+        std::cout << std::setprecision(50);
+    } else {
+        std::cout << std::setprecision(7);
+    }
+
+    std::cout << num;
+}
+
+bool isWhole(float num) {
+    return std::floor(num) == num;
+}
+
+void printRange(float start, float critical, float end, float interval) {
+    bool shownCritical = false;
+
+    float num = start;
+
+    for (int i = 0; num <= end; i++) {
+        float offset = i * interval;
+
+        num = start + offset;
+
+        printFloat(start);
+        std::cout << " + ";
+        printFloat(offset);
+        std::cout << " = ";
+        printFloat(num);
+
+        if (!shownCritical && num == critical && isWhole(offset)) {
+            std::cout << "          <---------------";
+            shownCritical = true;
+        }
+
+        std::cout << std::endl;
+    }
 }

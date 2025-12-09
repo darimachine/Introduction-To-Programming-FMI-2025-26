@@ -1,6 +1,41 @@
 #include <iomanip>
 #include <iostream>
 
+int convertToBinary(unsigned int num, char *result);
+void printResult(const char *str, unsigned int num);
+
+int main() {
+    unsigned int a = 123;
+    unsigned int b = 456;
+
+    printResult("a", a);
+    printResult("b", b);
+    std::cout << std::endl;
+
+    printResult("a & b", a & b);
+    printResult("a | b", a | b);
+    printResult("a ^ b", a ^ b);
+    std::cout << std::endl;
+
+    printResult("~a", ~a);
+    printResult("a ^ 0xFFFFFFFF", a ^ 0xFFFFFFFF);
+    std::cout << std::endl;
+
+    printResult("a << 1", a << 1);
+    printResult("a << 2", a << 2);
+    printResult("a << 3", a << 3);
+    printResult("a << 4", a << 4);
+    std::cout << std::endl;
+
+    printResult("a >> 1", a >> 1);
+    printResult("a >> 2", a >> 2);
+    printResult("a >> 3", a >> 3);
+    printResult("a >> 4", a >> 4);
+    std::cout << std::endl;
+
+    return 0;
+}
+
 int convertToBinary(unsigned int num, char *result) {
     const int bits = 8 * sizeof(num);
 
@@ -35,36 +70,4 @@ void printResult(const char *str, unsigned int num) {
     std::cout << std::setw(STR_WIDTH) << str << " = " << std::setw(NUM_WIDTH)
               << num << " = 0b" << binary << " = 0b" << (binary + firstNonZero)
               << std::endl;
-}
-
-int main() {
-    unsigned int a = 123;
-    unsigned int b = 456;
-
-    printResult("a", a);
-    printResult("b", b);
-    std::cout << std::endl;
-
-    printResult("a & b", a & b);
-    printResult("a | b", a | b);
-    printResult("a ^ b", a ^ b);
-    std::cout << std::endl;
-
-    printResult("~a", ~a);
-    printResult("a ^ 0xFFFFFFFF", a ^ 0xFFFFFFFF);
-    std::cout << std::endl;
-
-    printResult("a << 1", a << 1);
-    printResult("a << 2", a << 2);
-    printResult("a << 3", a << 3);
-    printResult("a << 4", a << 4);
-    std::cout << std::endl;
-
-    printResult("a >> 1", a >> 1);
-    printResult("a >> 2", a >> 2);
-    printResult("a >> 3", a >> 3);
-    printResult("a >> 4", a >> 4);
-    std::cout << std::endl;
-
-    return 0;
 }
