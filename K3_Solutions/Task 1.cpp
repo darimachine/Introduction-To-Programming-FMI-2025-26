@@ -52,9 +52,6 @@ void transformChar(char& c) {
    }
 }
 
-
-
-
 void mySwap(char& a, char& b) {
    char temp = a;
    a = b;
@@ -70,7 +67,6 @@ void reverseRange(char* s, size_t start, size_t end) {
    }
 }
 
-
 void transformString(char* str, int k) {
    if (!str || k <= 0) return;
 
@@ -78,10 +74,10 @@ void transformString(char* str, int k) {
 
    for (size_t start = 0; start < length; start += k) {
        size_t end = start + k - 1;
+
        if (end >= length) {
            end = length - 1;
        }
-
 
        reverseRange(str, start, end);
    }
@@ -90,7 +86,6 @@ void transformString(char* str, int k) {
        transformChar(str[i]);
    }
 }
-
 
 int main() {
    char str[] = "AbC123?!XYZ";
