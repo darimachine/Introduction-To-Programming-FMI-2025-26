@@ -16,11 +16,13 @@ _Материали на група 4_
 | **[08](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2008)** | Продължение Матрици и Масиви, Контролно 2                                                                                                                             |
 | **[09](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2009)** | Указатели                                                                                                                   |
 | **[10](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2010)** | Побитови операции. Стрингове.                                                                                                                           |
-| **[11]()** | Coming soon!                                                                                                                           |
+| **[11](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2011)** | Работа със стрингове.                                                                                                                           |
+| **[12]()** | Coming soon!                                                                                                                           |
 
 ### Допълнителни материали
 
 - [Допълнителни задачи](https://github.com/telinc1/Introduction-To-Programming-Problems)
+  - [Архив: Задачи от контролни и изпити](https://github.com/telinc1/Introduction-To-Programming-Problems/tree/master/resources/tasks/archives)
 
 - [cplusplus.com](https://cplusplus.com/reference/)
 - [cppreference.com](https://en.cppreference.com/w/)

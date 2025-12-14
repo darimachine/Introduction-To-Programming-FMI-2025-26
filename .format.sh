@@ -7,7 +7,7 @@ set -euo pipefail
 while read -r file; do
     echo "${file}"
     clang-format -i "${file}"
-    g++ -Wall -Wextra -pedantic -Werror -o /dev/null "${file}"
+    g++ -Wall -Wextra -pedantic -Werror -Wno-error=unused-parameter -o /dev/null "${file}"
 done < <(find "${1}" -type f -name '*.cpp')
 
 [[ -f a.out ]] && rm a.out || true
