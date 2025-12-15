@@ -3,9 +3,11 @@ using std::cin;
 using std::cout;
 using std::endl;
 
-
 size_t strLen(const char* s) {
-   if (!s) return 0;
+   if (!s) {
+      return 0;
+   }
+
    size_t n = 0;
 
    while (s[n]) n++;
@@ -13,32 +15,29 @@ size_t strLen(const char* s) {
    return n;
 }
 
-
 bool isUpper(char c) {
    return c >= 'A' && c <= 'Z';
 }
+
 bool isLower(char c) {
    return c >= 'a' && c <= 'z';
 }
+
 bool isDigit(char c) {
    return c >= '0' && c <= '9';
 }
-
 
 char toLower(char c) {
    return c + ('a' - 'A');
 }
 
-
 char digitTransform(char c) {
    return ('9' - c) + '0';
 }
 
-
 char otherTransform(char c) {
    return c == '?' ? c : '*';
 }
-
 
 void transformChar(char& c) {
    if (isUpper(c)) {
@@ -58,17 +57,22 @@ void mySwap(char& a, char& b) {
    b = temp;
 }
 
+void reverseRange(char* str, size_t start, size_t end) {
+   if (!str) {
+      return;
+   }
 
-void reverseRange(char* s, size_t start, size_t end) {
    while (start < end) {
-       mySwap(s[start], s[end]);
+       mySwap(str[start], str[end]);
        start++;
        end--;
    }
 }
 
 void transformString(char* str, int k) {
-   if (!str || k <= 0) return;
+   if (!str || k <= 0) {
+      return;
+   }
 
    size_t length = strLen(str);
 
@@ -95,4 +99,3 @@ int main() {
    cout << str << endl;
    return 0;
 }
-
