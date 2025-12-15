@@ -30,7 +30,6 @@ int main() {
     cout << (s < s4) << " " << (s >= s2) << endl;
 
     cout << s.empty() << endl;
-    // size - размер на char масива(с '\0'), length - дължина на стринга(без '\0')
     cout << s.size() << " != " << s.length() << endl;
 
     cout << s.erase(1).erase(1) << endl; // премахва символа на индекс 1
