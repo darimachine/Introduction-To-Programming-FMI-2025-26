@@ -16,7 +16,7 @@ _Материали на група 4_
 | **[08](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2008)** | Продължение Матрици и Масиви, Контролно 2                                                                                                                             |
 | **[09](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2009)** | Указатели                                                                                                                   |
 | **[10](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2010)** | Побитови операции. Стрингове.                                                                                                                           |
-| **[11](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2011)** | Работа със стрингове.                                                                                                                           |
+| **[11](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2011)** | Работа със стрингове, std::vector, std::string, Текстови файлове. Работа с ``ifstream, ofstream, fstream.``                                                                                                                            |
 | **[12]()** | Coming soon!                                                                                                                           |
 
 ### Допълнителни материали
