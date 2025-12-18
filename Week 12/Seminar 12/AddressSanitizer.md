@@ -25,13 +25,13 @@ set(CMAKE_CXX_FLAGS "-fsanitize=address")
 Стандартно компилиране:
 
 ```bash
-g++ main.c -o main
+g++ main.cpp -o main
 ```
 
 Компилиране с ASan:
 
 ```bash
-g++ main.c -o main -fsanitize=address
+g++ main.cpp -o main -fsanitize=address
 ```
 
 Изисква предварително инсталиран компилатор. Например, под Debian/Ubuntu:
