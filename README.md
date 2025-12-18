@@ -17,16 +17,25 @@ _Материали на група 4_
 | **[09](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2009)** | Указатели                                                                                                                   |
 | **[10](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2010)** | Побитови операции. Стрингове.                                                                                                                           |
 | **[11](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2011)** | Работа със стрингове, std::vector, std::string, Текстови файлове. Работа с ``ifstream, ofstream, fstream.``                                                                                                                            |
-| **[12]()** | Coming soon!                                                                                                                           |
+| **[12](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2012)** | Динамична памет. Динамично заделени масиви.                                                                                                                            |
+| **[13]()** | Coming soon!                                                                                                                           |
 
 ### Допълнителни материали
+
+Задачи:
 
 - [Допълнителни задачи](https://github.com/telinc1/Introduction-To-Programming-Problems)
   - [Архив: Задачи от контролни и изпити](https://github.com/telinc1/Introduction-To-Programming-Problems/tree/master/resources/tasks/archives)
 
+Документация:
+
 - [cplusplus.com](https://cplusplus.com/reference/)
 - [cppreference.com](https://en.cppreference.com/w/)
 - [Learn C++](https://www.learncpp.com)
+
+Други:
+
+- [AddressSanitizer](./Week%2012/Seminar%2012/AddressSanitizer.md)
 
 ### График на занятията
 
