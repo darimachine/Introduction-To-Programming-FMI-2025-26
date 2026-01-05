@@ -1,4 +1,4 @@
-# Библиотеки, std::vector
+# Библиотеки, std::vector, fstream, ifstream, ofstream
 
 
 
