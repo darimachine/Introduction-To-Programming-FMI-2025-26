@@ -18,7 +18,7 @@ _Материали на група 4_
 | **[10](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2010)** | Побитови операции. Стрингове.                                                                                                                           |
 | **[11](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2011)** | Работа със стрингове, std::vector, std::string, Текстови файлове. Работа с ``ifstream, ofstream, fstream.``                                                                                                                            |
 | **[12](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2012)** | Динамична памет. Динамично заделени масиви.                                                                                                                            |
-| **[13]()** | Coming soon!                                                                                                                           |
+| **[13](https://github.com/darimachine/Introduction-To-Programming-FMI-2025-26/tree/main/Week%2013)** | Сложности и Алгоритми за Сортиране                                                                                                                        |
 
 ### Допълнителни материали
 
