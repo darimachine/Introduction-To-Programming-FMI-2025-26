@@ -3,6 +3,7 @@
 using std::cin;
 using std::cout;
 
+constexpr int LOWERCASE_LETTER_COUNT = 'z' - 'a' + 1; // това е 26
 
 int getEncryptedTextLength(const char* str, int offset) {
     int counter = 0;
@@ -55,7 +56,7 @@ char* encrypt(const char* str, int offset) {
             result[resultIndex++] = str[strIndex];
         }
         else {
-            int realOffset = (letterIndex - 1 + offset) % 26;
+            int realOffset = (letterIndex - 1 + offset) % LOWERCASE_LETTER_COUNT;
             result[resultIndex++] = 'a' + realOffset;
         }
 
@@ -68,8 +69,9 @@ char* encrypt(const char* str, int offset) {
 }
 int main()
 {
-    char buffer[1024];
-    cin.getline(buffer, 1024);
+    constexpr int BUFFER_SIZE = 1024;
+    char buffer[BUFFER_SIZE];
+    cin.getline(buffer, BUFFER_SIZE);
     int offset;
     cin >> offset;
 

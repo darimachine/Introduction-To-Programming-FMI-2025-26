@@ -17,9 +17,9 @@ size_t my_strlen(const char* str)
 
 char* extractDuplicates(const char* str)
 {
-    
+
     size_t length = my_strlen(str);
-    if (length==0)
+    if (length == 0)
     {
         char* empty = new char[1];
         empty[0] = '\0';
@@ -40,7 +40,7 @@ char* extractDuplicates(const char* str)
     }
 
     char* result = new char[count + 1];
-    
+
     size_t index = 0;
     for (size_t i = 0; i < TOTAL_ASCII_SYMBOLS; i++)
     {
@@ -57,8 +57,9 @@ char* extractDuplicates(const char* str)
 int main()
 {
 
-    char input[1024];
-    std::cin.getline(input, 1024);
+    constexpr int BUFFER_SIZE = 1024;
+    char input[BUFFER_SIZE];
+    std::cin.getline(input, BUFFER_SIZE);
 
     char* output = extractDuplicates(input);
     std::cout << output;
