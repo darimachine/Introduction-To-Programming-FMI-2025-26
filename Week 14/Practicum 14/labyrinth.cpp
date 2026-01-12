@@ -17,7 +17,7 @@ constexpr size_t DIRECTIONS_COUNT = 4;
 int dx[DIRECTIONS_COUNT] = { 1, -1, 0, 0 };
 int dy[DIRECTIONS_COUNT] = { 0, 0, 1, -1 };
 
-bool canEscape(bool** labyrinth, bool** visited, size_t rows, size_t cols, int x, int y) {
+bool canEscape(const bool* const* labyrinth, bool** visited, size_t rows, size_t cols, int x, int y) {
     if (!labyrinth || !visited) {
         return false;
     }
@@ -40,7 +40,7 @@ bool canEscape(bool** labyrinth, bool** visited, size_t rows, size_t cols, int x
     return false;
 }
 
-void printMatrix(bool** matrix, size_t rows, size_t cols) {
+void printMatrix(const bool* const* matrix, size_t rows, size_t cols) {
     if (!matrix) {
         return;
     }
