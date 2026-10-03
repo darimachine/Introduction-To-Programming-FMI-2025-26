@@ -36,6 +36,68 @@
 
 ![Git diagram](https://assets.bytebytego.com/diagrams/0202-git-commands.png)
 
+
+## 7. Създаване на repository
+
+Има **два начина** да се започне.
+
+### Начин A — първо в GitHub, после на компютъра (препоръчителен)
+
+**Стъпка 1.** В GitHub се натиска бутонът **New** и се попълва:
+
+| Поле | Стойност |
+|---|---|
+| Repository name | `oop-practice` |
+| Public / Private | по избор |
+| Add a README file | ☑ отметнато |
+| Add .gitignore | `C++` или `VisualStudio` |
+
+После — **Create repository**.
+
+**Стъпка 2.** От зеления бутон **Code** се копира адресът и в терминала се пише:
+
+```bash
+git clone https://github.com/ivan-petrov/oop-practice.git
+cd oop-practice
+```
+
+```
+Cloning into 'oop-practice'...
+remote: Enumerating objects: 4, done.
+Receiving objects: 100% (4/4), done.
+```
+
+`git clone` прави три неща наведнъж:
+
+1. Създава папка `oop-practice` на компютъра.
+2. Сваля всички файлове и цялата история.
+3. Свързва папката с repo-то в GitHub (remote-ът получава името `origin`).
+
+След това проектът е готов за работа — нищо друго не трябва да се настройва.
+
+### Начин B — имам папка на компютъра и искам да я кача в GitHub
+
+```bash
+cd oop-practice
+git init
+git add .
+git commit -m "Първи commit"
+git remote add origin https://github.com/ivan-petrov/oop-practice.git
+git push -u origin main
+```
+
+| Команда | Какво прави |
+|---|---|
+| `git init` | Превръща обикновена папка в Git repo (създава скритата папка `.git`) |
+| `git add .` | Избира всички файлове |
+| `git commit -m "..."` | Запазва първата версия |
+| `git remote add origin <адрес>` | Казва на Git къде е repo-то в GitHub |
+| `git push -u origin main` | Първо качване. `-u` запомня връзката — следващите пъти е достатъчно само `git push` |
+
+> ⚠️ При Начин B repo-то в GitHub се създава **празно** — без README и без .gitignore. Иначе първият `push` ще бъде отказан, защото в GitHub ще има файлове, които ги няма на компютъра.
+
+---
+
 ## 🧪 Основен workflow (примерен сценарий)
 
 ```bash
