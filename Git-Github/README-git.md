@@ -37,7 +37,7 @@
 ![Git diagram](https://assets.bytebytego.com/diagrams/0202-git-commands.png)
 
 
-## 7. Създаване на repository
+## Създаване на repository
 
 Има **два начина** да се започне.
 
